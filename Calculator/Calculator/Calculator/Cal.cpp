@@ -3,7 +3,16 @@
 class Cal
 {
 public:
+	int getSum(int a, int b)
+	{
+		return a + b;
+  }
 
+	int getSumSum(int a, int b, int c)
+	{
+		return a + b + c;
+	}
+  
 	int getDivide(int a, int b)
 	{
 		if (b == 0)
