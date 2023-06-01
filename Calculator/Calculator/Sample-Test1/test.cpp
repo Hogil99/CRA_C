@@ -1,6 +1,12 @@
 #include "pch.h"
 #include "../Calculator/Cal.cpp"
 
+TEST(CalTest, ZegopTest) 
+{
+    Cal cal;
+    EXPECT_EQ(100, cal.getZegop(10));
+}
+
 TEST(TestCaseName, TestName) {
 	Cal* cal = new Cal();
 	EXPECT_TRUE(cal != nullptr);
